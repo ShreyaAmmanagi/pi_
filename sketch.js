@@ -45,7 +45,7 @@ function draw() {
 
 function whitehat(){
   if(keyDown("up")){
-	  Matter.Body.applyForce(trash.body,trash.body.position,{x:20,y:-25})
+	  Matter.Body.applyForce(trash.body,trash.body.position,{x:20,y:-20})
 
   }
   
